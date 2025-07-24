@@ -1,0 +1,35 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4a90e2;
+  padding: 1rem 2rem;
+  color: white;
+  font-weight: 700;
+  box-shadow: 0 3px 8px rgb(0 0 0 / 0.1);
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.link, .btnLogout {
+  font-size: 1rem;
+  color: white;
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.link:hover, .btnLogout:hover {
+  opacity: 0.8;
+}
